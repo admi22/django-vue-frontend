@@ -1,24 +1,8 @@
-# django-vue-frontend
+# Vue Frontend for testing Django backend
 
-## Project setup
-```
-npm install
-```
+This SPA Vue frontend complements the django backend found here: https://github.com/admi22/django-vue-backend.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+It supports getting CSRF cookies, logging in and out using Django sessions.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+This source code is closely based on this tutorial : https://testdriven.io/blog/django-spa-auth/#frontend-served-separately-cross-domain
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
